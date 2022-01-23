@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SearchWedApi</name>
+    </assembly>
+    <members>
+        <member name="M:SearchWedApi.Controllers.SearchController.GetMetrics">
+            <summary>
+            Получение отчета по времени выполнения запросов
+            </summary>
+            <returns>Отчет</returns>
+        </member>
+        <member name="M:SearchWedApi.Controllers.SearchController.Search(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Имитация обращения к поисковым системам
+            </summary>
+            <param name="wait"> Время ожидания ответа в запросе</param>
+            <param name="randomMin"> Минимальное время исполнения запроса</param>
+            <param name="randomMax"> Максимальное время исполнения запроса</param>
+            <returns>Сптсок выполненных запросов</returns>
+        </member>
+    </members>
+</doc>
